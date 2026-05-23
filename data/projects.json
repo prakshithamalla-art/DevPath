@@ -2,7 +2,9 @@
   {
     "id": 1,
     "title": "Personal Expense Tracker",
-    "skills": ["Python"],
+    "skills": [
+      "Python"
+    ],
     "level": "Beginner",
     "interest": "Data",
     "time": "Low",
@@ -13,7 +15,11 @@
       "View monthly summary",
       "Export data to CSV file"
     ],
-    "tech_stack": ["Python", "CSV module", "datetime module"],
+    "tech_stack": [
+      "Python",
+      "CSV module",
+      "datetime module"
+    ],
     "roadmap": [
       "Step 1: Set up the project folder and create main.py",
       "Step 2: Design the expense data structure as a dictionary",
@@ -33,7 +39,11 @@
   {
     "id": 2,
     "title": "Weather Dashboard",
-    "skills": ["JavaScript", "HTML", "CSS"],
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
     "level": "Beginner",
     "interest": "Web",
     "time": "Low",
@@ -44,7 +54,12 @@
       "Show a weather icon based on conditions",
       "Toggle between Celsius and Fahrenheit"
     ],
-    "tech_stack": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "OpenWeatherMap API"
+    ],
     "roadmap": [
       "Step 1: Create the HTML structure with a search form",
       "Step 2: Style the page with CSS flexbox",
@@ -64,7 +79,9 @@
   {
     "id": 3,
     "title": "Student Grade Manager",
-    "skills": ["Python"],
+    "skills": [
+      "Python"
+    ],
     "level": "Beginner",
     "interest": "Education",
     "time": "Medium",
@@ -75,7 +92,11 @@
       "Assign letter grades automatically",
       "Save and load data from a JSON file"
     ],
-    "tech_stack": ["Python", "json module", "os module"],
+    "tech_stack": [
+      "Python",
+      "json module",
+      "os module"
+    ],
     "roadmap": [
       "Step 1: Define the student data structure using a dictionary",
       "Step 2: Write add_student() and add_grade() functions",
@@ -95,7 +116,9 @@
   {
     "id": 4,
     "title": "Task Manager REST API",
-    "skills": ["Python"],
+    "skills": [
+      "Python"
+    ],
     "level": "Intermediate",
     "interest": "Web",
     "time": "Medium",
@@ -106,7 +129,12 @@
       "Assign priority levels to tasks",
       "Persist data to a JSON file"
     ],
-    "tech_stack": ["Python", "Flask", "JSON", "Postman (for testing)"],
+    "tech_stack": [
+      "Python",
+      "Flask",
+      "JSON",
+      "Postman (for testing)"
+    ],
     "roadmap": [
       "Step 1: Install Flask and create the app.py file",
       "Step 2: Define the task data model as a dictionary",
@@ -127,7 +155,11 @@
   {
     "id": 5,
     "title": "Portfolio Website",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
     "level": "Beginner",
     "interest": "Web",
     "time": "Low",
@@ -138,7 +170,11 @@
       "Skills list with visual indicators",
       "Contact form with basic validation"
     ],
-    "tech_stack": ["HTML", "CSS", "JavaScript"],
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
     "roadmap": [
       "Step 1: Plan the page sections on paper first",
       "Step 2: Write the HTML structure for all sections",
@@ -159,7 +195,12 @@
   {
     "id": 6,
     "title": "URL Shortener",
-    "skills": ["Python", "JavaScript", "HTML", "CSS"],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
     "level": "Intermediate",
     "interest": "Web",
     "time": "High",
@@ -170,7 +211,14 @@
       "Track how many times a link was clicked",
       "List all shortened links in a dashboard"
     ],
-    "tech_stack": ["Python", "Flask", "HTML", "CSS", "JavaScript", "JSON"],
+    "tech_stack": [
+      "Python",
+      "Flask",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON"
+    ],
     "roadmap": [
       "Step 1: Set up Flask app with two routes: home and redirect",
       "Step 2: Write a random 6-character code generator",
@@ -191,7 +239,9 @@
   {
     "id": 7,
     "title": "Data Analysis Report Generator",
-    "skills": ["Python"],
+    "skills": [
+      "Python"
+    ],
     "level": "Intermediate",
     "interest": "Data",
     "time": "High",
@@ -202,7 +252,12 @@
       "Calculate mean, median, and mode per column",
       "Generate bar charts for categorical data"
     ],
-    "tech_stack": ["Python", "pandas", "matplotlib", "os module"],
+    "tech_stack": [
+      "Python",
+      "pandas",
+      "matplotlib",
+      "os module"
+    ],
     "roadmap": [
       "Step 1: Install pandas and matplotlib via pip",
       "Step 2: Write a CSV loader that validates the file path",
@@ -222,7 +277,9 @@
   {
     "id": 8,
     "title": "Password Strength Checker",
-    "skills": ["Python"],
+    "skills": [
+      "Python"
+    ],
     "level": "Beginner",
     "interest": "Cybersecurity",
     "time": "Low",
@@ -233,7 +290,10 @@
       "Suggest stronger password improvements",
       "Prevent weak password patterns"
     ],
-    "tech_stack": ["Python", "Regex"],
+    "tech_stack": [
+      "Python",
+      "Regex"
+    ],
     "roadmap": [
       "Step 1: Create the password input system",
       "Step 2: Check password length",
@@ -251,7 +311,9 @@
   {
     "id": 9,
     "title": "Feedback Survey Form",
-    "skills": ["HTML"],
+    "skills": [
+      "HTML"
+    ],
     "level": "Beginner",
     "interest": "Web",
     "time": "Low",
@@ -261,7 +323,9 @@
       "Dropdown menu for experience selection",
       "Text area for detailed user suggestions"
     ],
-    "tech_stack": ["HTML"],
+    "tech_stack": [
+      "HTML"
+    ],
     "roadmap": [
       "Step 1: Create the HTML folder structure inside starter_code",
       "Step 2: Build the input text fields and labels",
@@ -275,9 +339,13 @@
     "starter_code": "starter_code/survey_form/index.html"
   },
   {
-    "id":10,
+    "id": 10,
     "title": "API ETL Pipeline",
-    "skills": ["Python","pandas","requests"],
+    "skills": [
+      "Python",
+      "pandas",
+      "requests"
+    ],
     "level": "Intermediate",
     "interest": "Data",
     "time": "Medium",
@@ -289,7 +357,12 @@
       "Generate summary statistics",
       "Export the processed CSV for any other Analytics projects"
     ],
-    "tech_stack": ["Python", "pandas","requests","JSON"],
+    "tech_stack": [
+      "Python",
+      "pandas",
+      "requests",
+      "JSON"
+    ],
     "roadmap": [
       "Step 1:  Install required modules via pip",
       "Step 2:  Find a public API key for this project",
@@ -310,8 +383,45 @@
       "Real Python API guide: https://realpython.com/api-integration-in-python/"
     ],
     "starter_code": "starter_code/api_data_pipeline.py"
+  },
+  {
+    "id": 11,
+    "title": "Real-time Chat Application",
+    "skills": [
+      "JavaScript",
+      "WebSocket",
+      "Node.js"
+    ],
+    "level": "Intermediate",
+    "interest": "Web",
+    "time": "High",
+    "description": "Build a real-time chat app where multiple users can join rooms and send messages instantly.",
+    "features": [
+      "User joins with username",
+      "Create or join chat rooms",
+      "Send and receive messages in real-time",
+      "See who is online"
+    ],
+    "tech_stack": [
+      "Node.js",
+      "Socket.io",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "roadmap": [
+      "Step 1: Set up Node.js and Socket.io",
+      "Step 2: Create basic HTML/CSS UI",
+      "Step 3: Implement connection events",
+      "Step 4: Add message sending and receiving",
+      "Step 5: Add room functionality",
+      "Step 6: Show active users",
+      "Step 7: Deploy to free hosting"
+    ],
+    "resources": [
+      "Socket.io docs: https://socket.io/docs/v4",
+      "MDN WebSocket API: https://developer.mozilla.org/en-US/docs/Web/API/WebSocket"
+    ],
+    "starter_code": "starter_code/chat_app.html"
   }
 ]
-
-
-
