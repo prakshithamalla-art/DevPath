@@ -1500,15 +1500,6 @@ select:focus {
   background: var(--indigo-100);
 }
 
-/* Results grid */
-.results-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 26px;
-  text-align: left;
-  margin-top: 16px;
-}
-
 /* Project card */
 .project-card {
   background: var(--white);
@@ -2533,9 +2524,6 @@ select:focus {
     gap: 16px;
   }
 
-  .results-grid {
-    grid-template-columns: 1fr;
-  }
 
   .detail-hero-actions {
     flex-direction: column;
@@ -2845,4 +2833,50 @@ select:focus {
   flex: 1;
   white-space: pre;
   color: #e6edf3;
+}
+/* =======================================================
+   Issue #372: Responsive Layout for Recommended Projects
+   ======================================================= */
+
+/* Mobile First: 1 card per row */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 24px; /* Clean spacing between cards */
+  text-align: left;
+  margin-top: 16px;
+  width: 100%;
+}
+
+/* Tablet Screens (768px wide and up): 2 cards per row */
+@media (min-width: 768px) {
+  .results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Desktop Screens (1024px wide and up): 3 cards per row */
+@media (min-width: 1024px) {
+  .results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Project card */
+.project-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 30px 28px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: box-shadow var(--t), transform var(--t), border-color var(--t);
+}
+
+.project-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-5px);
+  border-color: rgba(79, 110, 247, 0.3);
 }
